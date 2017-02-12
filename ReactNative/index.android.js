@@ -12,8 +12,7 @@ class HelloWorld extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.hello}>Hello, World</Text>   
-        <Text style={styles.hello}>Hello, World</Text>   
+        <Text style={styles.hello}>I'm so React native</Text>   
       </View>
     )
   }

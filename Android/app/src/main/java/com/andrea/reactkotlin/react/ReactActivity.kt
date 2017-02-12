@@ -22,11 +22,10 @@ class ReactActivity : AppCompatActivity(), DefaultHardwareBackBtnHandler {
 
     private val OVERLAY_PERMISSION_REQ_CODE = 1
 
-    private val reactRootView: ReactRootView by lazy { ReactRootView(this) }
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        val reactRootView = ReactRootView(this)
         reactRootView.startReactApplication(InstanceManager.manager, "HelloWorld", null)
         setContentView(reactRootView)
 

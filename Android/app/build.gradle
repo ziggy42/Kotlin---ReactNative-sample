@@ -18,6 +18,7 @@ android {
 
 dependencies {
     compile "com.android.support:appcompat-v7:$SUPPORT_LIBRARY_VERSION"
+    compile "com.android.support:design:$SUPPORT_LIBRARY_VERSION"
 
     compile 'com.jakewharton.timber:timber:4.5.1'
 
