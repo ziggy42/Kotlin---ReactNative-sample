@@ -18,7 +18,7 @@ object InstanceManager {
         manager = ReactInstanceManager.builder()
                 .setApplication(application)
                 .setBundleAssetName("index.android.bundle")
-                .setJSMainModuleName("index.android")
+                .setJSMainModuleName("../ReactNative/index.android")
                 .addPackage(MainReactPackage())
                 .setUseDeveloperSupport(BuildConfig.DEBUG)
                 .setInitialLifecycleState(LifecycleState.RESUMED)
