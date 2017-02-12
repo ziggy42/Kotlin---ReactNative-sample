@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ReactKotlin</string>
+    <string name="open_react">Open React Native Activity</string>
+</resources>
