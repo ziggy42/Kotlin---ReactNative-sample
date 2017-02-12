@@ -1,6 +1,7 @@
 buildscript {
     ext.KOTLIN_VERSION = '1.0.6'
     ext.SUPPORT_LIBRARY_VERSION = '23.0.1'
+    ext.REACT_NATIVE_VERSION = '+'
 
     repositories {
         jcenter()
@@ -14,6 +15,7 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
+        maven { url "$rootDir/node_modules/react-native/android" }
     }
 }
 

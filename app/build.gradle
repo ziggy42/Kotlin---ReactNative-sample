@@ -23,5 +23,7 @@ dependencies {
 
     compile "org.jetbrains.kotlin:kotlin-stdlib:$KOTLIN_VERSION"
 
+    compile "com.facebook.react:react-native:$REACT_NATIVE_VERSION"
+
     debugCompile 'com.squareup.leakcanary:leakcanary-android:1.5'
 }
