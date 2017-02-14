@@ -1,0 +1,16 @@
+{
+  "name": "yoga",
+  "source_files": "**/*.{c,h}",
+  "header_dir": "yoga",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "authors": "",
+  "license": "a",
+  "homepage": "a",
+  "source": {
+    "path": "./yoga"
+  },
+  "summary": "a",
+  "version": "0.1"
+}
