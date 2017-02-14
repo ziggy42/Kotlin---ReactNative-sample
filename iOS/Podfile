@@ -1,0 +1,25 @@
+platform :ios, '9.0'
+#use_frameworks!
+
+target 'ReactTry' do
+
+  # Pods for ReactTry
+
+  pod 'React', :path => '../ReactNative/node_modules/react-native', :subspecs => [
+  'Core',
+  'RCTText',
+  'RCTNetwork',
+  'RCTWebSocket'
+  ]
+
+  target 'ReactTryTests' do
+    inherit! :search_paths
+  end
+
+  target 'ReactTryUITests' do
+    inherit! :search_paths
+  end
+
+end
+
+
