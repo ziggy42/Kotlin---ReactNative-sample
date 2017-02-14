@@ -5,6 +5,7 @@ An example app built with Kotlin and ReactNative
 Install watchman, see https://facebook.github.io/watchman/docs/install.html
 ```
 cd ReactNative
+npm install
 npm start
 ```
 Run from Android Studio as usual
